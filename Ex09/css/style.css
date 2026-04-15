@@ -1,0 +1,180 @@
+body{
+  font: 15px/1.6 Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  background:#daee23;
+  color:#000;
+}
+
+.container{
+  width:85%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.button_1{
+  height:36px;
+  background:#4CAF50;
+  border:0;
+  padding:0 18px;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.button_1:hover{
+  background:#388e3c;
+}
+
+.dark{
+  padding:15px;
+  background:#2f3542;
+  color:#fff;
+  margin-top:10px;
+  border-radius:6px;
+}
+
+header{
+  background:#f4f8a6;
+  color:#000;
+  padding-top:20px;
+  min-height:70px;
+  border-bottom:3px solid #4CAF50;
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:15px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 15px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+  color:#4CAF50;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#4CAF50;
+  font-weight:bold;
+}
+
+#showcase{
+  min-height:300px;
+  background:linear-gradient(to right, #4CAF50, #66bb6a);
+  color:#fff;
+  text-align:center;
+  padding-top:80px;
+}
+
+#showcase h1{
+  font-size:42px;
+}
+
+#showcase p{
+  font-size:18px;
+}
+
+#newsletter{
+  padding:15px;
+  color:#fff;
+  background:#2f3542;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form{
+  float:right;
+  margin-top:10px;
+}
+
+#newsletter input[type="email"]{
+  padding:5px;
+  height:25px;
+  width:220px;
+  border:0;
+}
+
+#boxes{
+  margin-top:20px;
+  display:flex;
+  gap:20px;
+}
+
+#boxes .box{
+  flex:1;
+  padding:20px;
+  text-align:center;
+  background:#fff;
+  border-radius:8px;
+}
+
+#boxes .box img{
+  width:70px;
+  margin-bottom:10px;
+}
+
+article#main-col{
+  float:left;
+  width:64%;
+  margin-top:20px;
+}
+
+aside#sidebar{
+  float:right;
+  width:32%;
+  margin-top:20px;
+}
+
+aside#sidebar .quote{
+  background:#eccc63;
+  padding:15px;
+  border-radius:6px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea{
+  width:100%;
+  padding:10px;
+  margin-bottom:10px;
+  border:1px solid #999;
+  box-sizing:border-box;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#fff;
+  background:#2f3542;
+  text-align:center;
+  clear:both;
+}
